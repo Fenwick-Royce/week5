@@ -1,0 +1,12 @@
+body {}
+
+header {
+    width: fit-content;
+    height: 300px;
+}
+
+@media screen and (min-width: 480px) {
+    header {
+        background: linear-gradient(to bottom, blue, black);
+    }
+}
